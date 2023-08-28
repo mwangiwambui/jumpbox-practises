@@ -33,9 +33,9 @@ def compareTriplets(a, b):
 if __name__ == '__main__':
     # fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
-    a = [list(map(int, input().rstrip().split()))]
+    a = [3,5,6,6]
 
-    b = list(map(int, input().rstrip().split()))
+    b = [4,6,2,6,2]
 
     result = compareTriplets(a, b)
     print(result)
