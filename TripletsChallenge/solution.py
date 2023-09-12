@@ -22,13 +22,13 @@ def compareTriplets(a, b):
         if a[i] > b[i]:
             a_points +=1
         elif a[i] < b[i] :
-            b_points +=1
+            b_points +=1      
             
         else:
             continue
             
     return[a_points,b_points] 
-    # Write your code here
+    #Write your code here
 
 if __name__ == '__main__':
     # fptr = open(os.environ['OUTPUT_PATH'], 'w')
