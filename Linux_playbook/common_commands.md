@@ -26,7 +26,7 @@ to check the os-version
  RPM does not look at the dependencies needed by various packages.
 
  YUM is best because it installs the package and all its dependencies.
-  `yum --showduplicates list package`
+`yum --showduplicates list package`
 
   to see a list of available package versions.
 
