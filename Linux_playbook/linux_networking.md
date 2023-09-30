@@ -18,3 +18,11 @@ Used to add ips to an interface
 ` cat /etc/nsswitch.conf`
 Used to determine the order at which DNS records should be searched, e.g. first file(/etc/hosts) then dns nameserver
 
+DNS Record Types:
+1. A records, ip to hostnames
+2. quad A records (AAAA). maps ipv6 a records to hostnames
+3. CNAME records, mapping names into another hostname
+
+`nslookup` 
+used to query DNS resolution
+
