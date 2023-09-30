@@ -1,0 +1,11 @@
+[Unit]
+Description=My python web application
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/code/my_app.py
+ExecStartPre=/bin/bash /opt/code/configure_db.sh
+ExecStartPost=/bin/bash /opt/code/email_status.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
