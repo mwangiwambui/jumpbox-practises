@@ -25,7 +25,6 @@ DNS Record Types:
 
 `nslookup` 
 used to query DNS resolution
-
 ` dig`
 querys DNS name resolutions, returns more details than ns lookup
 
