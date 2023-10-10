@@ -12,3 +12,6 @@ Used to set the niceness level of a process.
 
 `renice 10 -p {pid}`
 Used to set the niceness level of an existing process.
+
+`cat /proc/{pid}/status`
+Used to see more information about a process. All details about process are stores in the /proc partition.
