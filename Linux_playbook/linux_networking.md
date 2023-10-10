@@ -24,7 +24,7 @@ DNS Record Types:
 3. CNAME records, mapping names into another hostname
 
 `nslookup` 
-used to query DNS resolution
+used to query DNS resolutions
 ` dig`
 querys DNS name resolutions, returns more details than ns lookup
 
