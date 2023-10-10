@@ -15,3 +15,13 @@ Used to set the niceness level of an existing process.
 
 `cat /proc/{pid}/status`
 Used to see more information about a process. All details about process are stores in the /proc partition.
+
+`jobs`
+Used to view the commands sent to the background and the status of the commands sent to the background.
+
+`bg`
+Send an existing job to the background after you temporarily suspend it with CTRL+Z
+
+`fg {pid}`
+To bring a job to the foreground with a pid.
+
