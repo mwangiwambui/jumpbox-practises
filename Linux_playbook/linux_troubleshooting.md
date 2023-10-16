@@ -12,3 +12,6 @@ Also used to list services started at boot time
 
 `sudo systemctl list-unit-files --state=enabled`
 Command to check services at start time for systemd
+
+`top`
+To examine CPU usage and kill processess consuming it if necessary.
